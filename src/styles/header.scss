@@ -1,0 +1,9 @@
+@use './reset.scss';
+
+.Test {
+    color: red;
+
+    &:hover {
+        color: blue;
+    }
+}
