@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/Nav.scss'
 import logo from '../Assets/personal-logo.svg'
 
 function Nav() {
