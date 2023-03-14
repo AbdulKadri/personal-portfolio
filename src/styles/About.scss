@@ -1,0 +1,30 @@
+// Import rule will grdually phase out. when this happens use @use instead
+@import './variables.scss';
+@import './mixins.scss';
+
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5%;
+    background-color: $primary-bg-colour;
+    color: white;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: hidden;
+
+    > button {
+        width: 5%;
+        border: 1px solid white;
+        border-radius: 10%;
+        color: var(--primary-color);
+        font-size: 2rem;
+        background-color: var(--primary-bg-color);
+        z-index: 1;
+    }
+}

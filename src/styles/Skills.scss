@@ -1,0 +1,24 @@
+// Import rule will grdually phase out. when this happens use @use instead
+@import './variables.scss';
+@import './mixins.scss';
+
+.languages-tools {
+    display: grid;
+    grid-template-rows: min-content;
+    grid-auto-flow: column;
+    grid-auto-columns: 12%;
+    gap: 10px;
+    padding: 0 10px;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+
+    position: relative;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}
