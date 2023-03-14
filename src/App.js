@@ -7,7 +7,6 @@ class App extends Component {
     return (
      <div className="Original">
         <Nav></Nav>
-        Hello World
       </div>
     )
   }

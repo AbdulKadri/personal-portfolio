@@ -1,1 +1,37 @@
+// Import rule will grdually phase out. when this happens use @use instead
+@import './variables.scss';
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.3rem;
+    height: 8%;
+    border-bottom: 1px solid rgb(90, 85, 85);
+
+    > * {
+        margin: 20px 40px;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo > a > img {
+        width: 2rem;
+        cursor: pointer;
+}
+
+.menu-items > ul {
+    display: flex;
+
+    > li {
+        margin: 0 10px;
+        cursor: pointer;
+        color: $primary-colour;
+    }
+}
