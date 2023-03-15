@@ -1,0 +1,10 @@
+// Import rule will grdually phase out. when this happens use @use instead
+@import './variables.scss';
+
+.footer {
+    color: white;
+    background-color: $primary-bg-colour;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
