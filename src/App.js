@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import './styles/App.scss'
+import "./styles/App.scss"
 import Nav from "./Components/Nav";
 import Introduction from "./Components/Intro";
-import About from './Components/About'
+import About from "./Components/About"
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact"
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Introduction />
         <About />
         <Projects />
+        <Contact />
       </div>
     )
   }

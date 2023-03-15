@@ -1,4 +1,5 @@
 const Asset = {
+    // Skills
     logoHTML: require('../Assets/languages/html5-original.svg').default,
     logoCSS: require('../Assets/languages/css3-original.svg').default,
     logoJavaScript: require('../Assets/languages/javascript-original.svg').default,
@@ -15,6 +16,13 @@ const Asset = {
     logoJest: require('../Assets/languages/jest-plain.svg').default,
     logoNpm: require('../Assets/languages/npm-original-wordmark.svg').default,
     logoGit: require('../Assets/languages/git-original.svg').default,
+
+    // Social 
+    logoGithub: require('../Assets/socials/Github - Negative.svg').default,
+    logoLinkedIn: require('../Assets/socials/LinkedIn - Negative.svg').default,
+
+    // Send Arrow
+    Arrow: require('../Assets/Arrow.svg').default,
 }   
 
 export default Asset;
