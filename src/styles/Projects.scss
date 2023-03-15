@@ -8,6 +8,10 @@
     font-size: 2rem;
     text-align: center;
     padding: 5%;
+
+    > h2 {
+        @include h2Design;
+    }
 }
 
 .project {

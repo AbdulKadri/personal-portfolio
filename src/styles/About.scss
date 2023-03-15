@@ -13,5 +13,7 @@
     background-color: $primary-bg-colour;
     color: white;
 
-    // overflow: hidden;
+    > h2 {
+        @include h2Design
+    }
 }
