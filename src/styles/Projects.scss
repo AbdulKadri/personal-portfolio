@@ -1,0 +1,36 @@
+// Import rule will grdually phase out. when this happens use @use instead
+@import './variables.scss';
+@import './mixins.scss';
+
+.project-container {
+    min-height: 100vh;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5%;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+    padding: 2%;
+    border: 2px solid $primary-colour;
+
+    > .project-text {
+        margin-left: auto;
+        margin-right: auto;
+
+        > p {
+            font-size: 1rem;
+            margin: 0 50px;
+        }
+    }
+}
+
+.project-preview {
+    width: 70rem;
+    aspect-ratio: 16/9;
+    background-color: gray;
+}
