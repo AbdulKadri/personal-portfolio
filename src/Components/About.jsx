@@ -4,7 +4,7 @@ import EmblaCarousel from "./Carousel";
 
 function About() {
     return (
-        <div className="About">
+        <div className="About" id="about">
             <h2> <u>About</u> </h2>
 
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio non voluptatem, aut dolorem quibusdam sint iusto minus dolores suscipit cum. Commodi debitis error molestias deleniti dolorem magnam consequuntur eum provident?</p>
