@@ -85,7 +85,8 @@ function Skills() {
                 <p>Git</p>
                 <p className="ordered-number">16</p>
             </div>
-            <div className="spacer"></div>
+            <div style={{width: "60px"}}>
+            </div>
         </div>
     )
 }

@@ -13,20 +13,5 @@
     background-color: $primary-bg-colour;
     color: white;
 
-    overflow: hidden;
-}
-
-.carousel {
-    display: flex;
-    overflow-x: hidden;
-
-    > button {
-        width: 5%;
-        border: 1px solid white;
-        border-radius: 10%;
-        color: var(--primary-color);
-        font-size: 2rem;
-        background-color: var(--primary-bg-color);
-        z-index: 1;
-    }
+    // overflow: hidden;
 }

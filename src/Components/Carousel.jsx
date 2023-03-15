@@ -10,7 +10,7 @@ const autoplayOptions = {
 }
 
 const EmblaCarousel = () => {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay(autoplayOptions)])
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, dragFree: true, align: 0 }, [Autoplay(autoplayOptions, (emblaRoot) => emblaRoot.parentElement)])
 
     const scrollPrev = useCallback(() => {
       if (emblaApi) emblaApi.scrollPrev()
@@ -25,7 +25,7 @@ const EmblaCarousel = () => {
           <button className="embla-Prev" onClick={scrollPrev}>&#8249;</button>
 
           <div className="embla-wrapper" ref={emblaRef}>
-            <Skills></Skills>
+            <Skills />
           </div>
 
           <button className="embla-Next" onClick={scrollNext}>&#8250;</button>
