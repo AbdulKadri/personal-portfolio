@@ -4,7 +4,7 @@ import Asset from "./Assets.jsx";
 
 function Skills() {
     return (
-        <div className="languages-tools">
+        <div className="skills-container">
             <div className="skill">
                 <img src= { Asset.logoHTML } alt="HTML logo" />
                 <p>HTML</p>
@@ -85,6 +85,7 @@ function Skills() {
                 <p>Git</p>
                 <p className="ordered-number">16</p>
             </div>
+            <div className="spacer"></div>
         </div>
     )
 }

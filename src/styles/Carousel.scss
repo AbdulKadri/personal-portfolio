@@ -1,0 +1,21 @@
+// Import rule will grdually phase out. when this happens use @use instead
+@import './variables.scss';
+@import './mixins.scss';
+
+.embla {
+    overflow: hidden;
+    display: flex;
+    // width: 100%;
+    // border: 1px solid red;
+}
+
+.embla-Prev,
+.embla-Next {
+    width: 5%;
+    border: 1px solid white;
+    border-radius: 10%;
+    color: var(--primary-color);
+    font-size: 2rem;
+    background-color: $primary-bg-colour;
+    z-index: 1;
+}
