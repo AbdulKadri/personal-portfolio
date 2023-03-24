@@ -1,19 +1,23 @@
 // Import rule will grdually phase out. when this happens use @use instead
-@import './variables.scss';
-@import './mixins.scss';
+@import "./variables.scss";
+@import "./mixins.scss";
 
 .About {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    font-size: 2rem;
-    text-align: center;
-    padding: 5%;
-    background-color: $primary-bg-colour;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-size: 2rem;
+  text-align: center;
+  padding: 5%;
+  background-color: $primary-bg-colour;
+  color: white;
 
-    > h2 {
-        @include h2Design
-    }
+  > h2 {
+    @include h2Design;
+  }
+
+  > p {
+    font-size: 1.6rem;
+  }
 }
