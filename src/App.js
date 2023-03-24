@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import "./styles/App.scss"
 import Nav from "./Components/Nav";
 import Introduction from "./Components/Intro";
@@ -7,19 +6,17 @@ import Projects from "./Components/Projects";
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer";
 
-class App extends Component {
-  render() {
-    return (
-     <div>
-        <Nav />
-        <Introduction />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
-    )
-  }
+const App = () => {
+  return (
+    <div>
+      <Nav />
+      <Introduction />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
+  )
 }
 
 export default App;
