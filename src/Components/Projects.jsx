@@ -25,11 +25,25 @@ const Projects = () => {
                     <p>Link to repo</p>
                 </div>
 
-                <div className="project-preview"></div>
+                <div className="project-preview">
+                    <div className="project-front">
+                        <p>Temp Front</p>
+                    </div>
+                    <div className="project-back">
+                        <p>Temp back</p>
+                    </div>
+                </div>
             </div>
 
             <div className="project">
-                <div className="project-preview"> </div>
+                <div className="project-preview">
+                    <div className="project-front">
+                        <p>Temp Front</p>
+                    </div>
+                    <div className="project-back">
+                        <p>Temp back</p>
+                    </div>
+                </div>
 
                 <div className="project-text">
                     <h3>Project 2</h3>
@@ -69,7 +83,14 @@ const Projects = () => {
                     <p>Link to repo</p>
                 </div>
 
-                <div className="project-preview"></div>
+                <div className="project-preview">
+                    <div className="project-front">
+                        <p>Temp Front</p>
+                    </div>
+                    <div className="project-back">
+                        <p>Temp back</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
