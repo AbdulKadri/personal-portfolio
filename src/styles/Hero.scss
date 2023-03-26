@@ -45,10 +45,14 @@
 
 @media (max-width: $mobile-size) {
   .Hero {
-    font-size: 4rem;
+    font-size: 3.5rem;
 
     > .Hero-Text {
-      //   width: 90%;
+      width: 90%;
+
+      > * {
+        margin: 2rem 0;
+      }
     }
   }
 }
