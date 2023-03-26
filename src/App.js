@@ -1,6 +1,6 @@
 import "./styles/App.scss"
 import Nav from "./Components/Nav";
-import Introduction from "./Components/Intro";
+import Hero from "./Components/Hero";
 import About from "./Components/About"
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact"
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <Nav />
-      <Introduction />
+      <Hero />
       <About />
       <Projects />
       <Contact />
