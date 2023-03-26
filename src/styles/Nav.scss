@@ -21,9 +21,14 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.logo > a > img {
-  width: 2rem;
-  cursor: pointer;
+.logo {
+  display: flex;
+  align-items: center;
+
+  #logo {
+    width: 2rem;
+    cursor: pointer;
+  }
 }
 
 .menu-button {
@@ -41,15 +46,25 @@
 }
 
 @media (max-width: $mobile-size) {
+  .nav {
+    font-size: 1.5rem;
+  }
+
   .sticky {
     background-color: $primary-bg-colour;
   }
 
   .menu-button {
-    display: block;
+    display: flex;
+    align-items: center;
     cursor: pointer;
     color: $primary-colour;
     font-size: 1rem;
+  }
+
+  .fa-bars,
+  .fa-times {
+    width: 1.5rem;
   }
 
   .menu-items > ul {
@@ -62,6 +77,7 @@
     background-color: $primary-bg-colour;
 
     > li {
+      transition: 2s ease-in-out;
       margin: 10px;
     }
   }
@@ -72,6 +88,7 @@
 
   .open {
     display: block;
+
     > ul {
       top: 3rem;
       right: 0;
