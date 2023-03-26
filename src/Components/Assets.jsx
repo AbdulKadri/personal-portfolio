@@ -23,6 +23,6 @@ const Asset = {
 
     // Send Arrow
     Arrow: require('../Assets/Arrow.svg').default,
-}   
+}
 
 export default Asset;
