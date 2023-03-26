@@ -44,9 +44,9 @@
     @include centerAll;
     height: 100%;
     width: 100%;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    transition: all 0.5s linear;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -60,20 +60,23 @@
 
   > .project-back {
     background-color: green;
-    -webkit-transform: rotateX(90deg) translateZ(-9.2rem);
-    -moz-transform: rotateX(90deg) translateZ(-9.2rem);
-    transform: rotateX(90deg) translateZ(-9.2rem);
+    -webkit-transform: rotateX(120deg) translateZ(-9.2rem);
+    -moz-transform: rotateX(120deg) translateZ(-9.2rem);
+    transform: rotateX(120deg) translateZ(-9.2rem);
+    border-top: 2px solid rgb(171, 171, 171);
   }
 
   &:hover .project-front {
-    -webkit-transform: rotateX(90deg) translateZ(9.2rem);
-    -moz-transform: rotateX(90deg) translateZ(9.2rem);
-    transform: rotateX(90deg) translateZ(9.2rem);
+    -webkit-transform: rotateX(120deg) translateZ(9.2rem);
+    -moz-transform: rotateX(120deg) translateZ(9.2rem);
+    transform: rotateX(120deg) translateZ(9.2rem);
+    border-bottom: 2px solid rgb(171, 171, 171);
   }
 
   &:hover .project-back {
     -webkit-transform: rotateX(0) translateZ(0);
     -moz-transform: rotateX(0) translateZ(0);
     transform: rotateX(0) translateZ(0);
+    border-top: 0;
   }
 }
