@@ -1,7 +1,12 @@
-$primary-colour: #00CCFF;
+$primary-colour: #00ccff;
 $primary-bg-colour: rgb(49, 46, 46);
 
+// Media Queries
+$mobile-size: 480px;
+$tablet-size: 768px;
+$desktop-size: 1200px;
+
 @font-face {
-    font-family: 'Primary-Timmana';
-    src: url(../Assets/fonts/Timmana-Regular.ttf);
+  font-family: "Primary-Timmana";
+  src: url(../Assets/fonts/Timmana-Regular.ttf);
 }
