@@ -84,7 +84,7 @@ const Skills = () => {
                 <p>Git</p>
                 <p className="ordered-number">16</p>
             </div>
-            <div style={{ width: "60px" }}>
+            <div className='hidden-skill'>
             </div>
         </div>
     )

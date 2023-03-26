@@ -1,18 +1,25 @@
 // Import rule will grdually phase out. when this happens use @use instead
-@import './variables.scss';
+@import "./variables.scss";
 
 .embla {
-    overflow: hidden;
-    display: flex;
+  overflow: hidden;
+  display: flex;
 }
 
 .embla-Prev,
 .embla-Next {
-    width: 5%;
-    border: 1px solid white;
-    border-radius: 10%;
-    color: $primary-colour;
-    font-size: 2rem;
-    background-color: $primary-bg-colour;
-    z-index: 1;
+  width: 5%;
+  border: 1px solid white;
+  border-radius: 10%;
+  color: $primary-colour;
+  font-size: 2rem;
+  background-color: $primary-bg-colour;
+  z-index: 1;
+}
+
+@media (max-width: $mobile-size) {
+  .embla-Prev,
+  .embla-Next {
+    display: none;
+  }
 }

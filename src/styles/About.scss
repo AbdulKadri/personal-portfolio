@@ -21,3 +21,11 @@
     font-size: 1.6rem;
   }
 }
+
+@media (max-width: $mobile-size) {
+  .About {
+    p {
+      margin-bottom: 10px;
+    }
+  }
+}
