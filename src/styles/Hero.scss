@@ -1,0 +1,54 @@
+// Import rule will grdually phase out. when this happens use @use instead
+@import "./variables.scss";
+@import "./mixins.scss";
+
+.Hero {
+  @include centerAll;
+  height: 100vh;
+  width: 100%;
+  font-size: 7rem;
+  text-align: center;
+  color: white;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Assets/workplace.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.appear-first {
+  animation: slideUp 0.5s ease-in 0s 1 forwards;
+  opacity: 0;
+}
+
+.appear-second {
+  animation: slideUp 0.5s ease-in 0.5s 1 forwards;
+  opacity: 0;
+}
+
+.appear-third {
+  animation: slideUp 0.5s ease-in 1s 1 forwards;
+  opacity: 0;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: $mobile-size) {
+  .Hero {
+    font-size: 4rem;
+
+    > .Hero-Text {
+      //   width: 90%;
+    }
+  }
+}

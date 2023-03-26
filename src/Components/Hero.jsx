@@ -1,10 +1,9 @@
-import React from "react";
-import '../styles/Intro.scss'
+import '../styles/Hero.scss'
 
-function Introduction() {
+const Hero = () => {
     return (
-        <div className="Intro" id="home">
-            <div className="Intro-Text">
+        <div className="Hero" id="home">
+            <div className="Hero-Text">
                 <h1 className="appear-first">Abdul-Rahime</h1>
                 <h1 className="appear-second">Kadri</h1>
                 <h1 className="appear-third">Web Developer</h1>
@@ -13,4 +12,4 @@ function Introduction() {
     )
 }
 
-export default Introduction;
+export default Hero;
