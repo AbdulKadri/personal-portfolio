@@ -1,7 +1,7 @@
 // import React, { useEffect, useRef, useState } from "react";
 import '../styles/Nav.scss'
 import logo from '../Assets/personal-logo.svg'
-// import { useEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 
 const Nav = () => {
     const [openNav, setOpenNav] = useState(false)
