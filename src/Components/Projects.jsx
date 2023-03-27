@@ -8,6 +8,7 @@ const Projects = () => {
             <div className="project">
                 <div className="project-text">
                     <h3>Project 1</h3>
+                    <br />
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, iste asperiores ut dolorum obcaecati vero ullam praesentium dolore corrupti nulla? Odio voluptates harum quasi in? Neque, quod? Aut, adipisci amet!</p>
 
@@ -18,10 +19,9 @@ const Projects = () => {
                     <p>Created with Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
                     <br />
-                    <br />
 
-                    <p>Link to site</p>
-                    <p>Link to repo</p>
+                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer">Live site</a>
+                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer"> Repository </a>
                 </div>
 
                 <div className="project-preview">
@@ -46,6 +46,7 @@ const Projects = () => {
 
                 <div className="project-text">
                     <h3>Project 2</h3>
+                    <br />
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, iste asperiores ut dolorum obcaecati vero ullam praesentium dolore corrupti nulla? Odio voluptates harum quasi in? Neque, quod? Aut, adipisci amet!</p>
 
@@ -56,16 +57,16 @@ const Projects = () => {
                     <p>Created with Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
                     <br />
-                    <br />
 
-                    <p>Link to site</p>
-                    <p>Link to repo</p>
+                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer">Live site</a>
+                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer"> Repository </a>
                 </div>
             </div>
 
             <div className="project">
                 <div className="project-text">
                     <h3>Project 3</h3>
+                    <br />
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, iste asperiores ut dolorum obcaecati vero ullam praesentium dolore corrupti nulla? Odio voluptates harum quasi in? Neque, quod? Aut, adipisci amet!</p>
 
@@ -76,10 +77,9 @@ const Projects = () => {
                     <p>Created with Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
                     <br />
-                    <br />
 
-                    <p>Link to site</p>
-                    <p>Link to repo</p>
+                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer">Live site</a>
+                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer"> Repository </a>
                 </div>
 
                 <div className="project-preview">

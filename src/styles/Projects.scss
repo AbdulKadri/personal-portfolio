@@ -26,9 +26,24 @@
     margin-left: auto;
     margin-right: auto;
 
-    > p {
+    p {
       font-size: 1rem;
       margin: 0 50px;
+    }
+
+    a {
+      cursor: pointer;
+      width: 20%;
+
+      margin: 0 10px;
+      padding: 1rem 1rem 0.5rem;
+      font-size: 1rem;
+      font-weight: 100;
+
+      border: none;
+      border-radius: 10px;
+      background-color: $primary-bg-colour;
+      color: $primary-colour;
     }
   }
 }
@@ -36,11 +51,9 @@
 .project-preview {
   width: 70rem;
   aspect-ratio: 16/9;
-  //   background-color: gray;
   position: relative;
-  //   perspective: 1000;
 
-  > * {
+  * {
     @include centerAll;
     height: 100%;
     width: 100%;
@@ -53,12 +66,12 @@
     position: absolute;
   }
 
-  > .project-front {
+  .project-front {
     z-index: 1;
     background-color: blue;
   }
 
-  > .project-back {
+  .project-back {
     background-color: green;
     -webkit-transform: rotateX(120deg) translateZ(-9.2rem);
     -moz-transform: rotateX(120deg) translateZ(-9.2rem);
@@ -78,5 +91,40 @@
     -moz-transform: rotateX(0) translateZ(0);
     transform: rotateX(0) translateZ(0);
     border-top: 0;
+  }
+}
+
+@media (max-width: $mobile-size) {
+  .project {
+    position: relative;
+    margin-top: 11rem;
+
+    .project-text a {
+      margin-bottom: 30px;
+    }
+  }
+
+  .project-preview {
+    position: absolute;
+    top: -10rem;
+    left: 0;
+
+    width: 100%;
+    height: auto;
+
+    .project-front {
+      z-index: -1;
+    }
+
+    .project-back {
+      display: none;
+    }
+
+    &:hover .project-front {
+      -webkit-transform: rotateX(0) translateZ(0);
+      -moz-transform: rotateX(0) translateZ(0);
+      transform: rotateX(0) translateZ(0);
+      border-bottom: 0;
+    }
   }
 }
