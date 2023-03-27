@@ -8,6 +8,7 @@
   font-size: 2rem;
   text-align: center;
   padding: 5%;
+  background-color: #d1d1d1;
 
   > h2 {
     @include h2Design;
@@ -20,7 +21,11 @@
   width: 100%;
   margin-top: 5%;
   padding: 2%;
-  border: 2px solid $primary-colour;
+  border: 10px solid #d1d1d1;
+  border-radius: 23px;
+  background-color: #e0e0e0;
+  box-shadow: 21px 21px 30px #545454, -21px -21px 30px #ffffff,
+    inset 5px 5px 20px #545454, inset -10px -10px 30px #ffffff;
 
   > .project-text {
     margin-left: auto;
@@ -98,9 +103,28 @@
   .project {
     position: relative;
     margin-top: 11rem;
+    box-shadow: none;
+    padding: 0;
 
-    .project-text a {
-      margin-bottom: 30px;
+    .project-text {
+      z-index: 1;
+      background-color: #e0e0e0;
+      border: 10px solid #d1d1d1;
+      border-radius: 23px;
+      box-shadow: 21px 21px 30px #545454, inset 5px 5px 20px #545454,
+        inset -10px -10px 30px #ffffff;
+
+      h3 {
+        margin-top: 1rem;
+      }
+
+      a {
+        display: block;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+      }
     }
   }
 
@@ -113,7 +137,7 @@
     height: auto;
 
     .project-front {
-      z-index: -1;
+      z-index: 0;
     }
 
     .project-back {
