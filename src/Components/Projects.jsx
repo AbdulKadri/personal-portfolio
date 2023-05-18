@@ -52,7 +52,7 @@ const Projects = () => {
 
                     <br />
 
-                    <p className='created-with'><u>Frontend:</u> React, Next, Three.js, GSAP, TailwindCSS, react-toastify, axios...</p>
+                    <p className='created-with'><u>Frontend:</u> React, Next, Three.js, GSAP, TailwindCSS, react-toastify, async-paginate, axios...</p>
                     <p className='created-with'><u>Hosting:</u> Vercel</p>
 
                     <br />
@@ -78,7 +78,7 @@ const Projects = () => {
 
                     <br />
 
-                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer">Live site</a>
+                    <a href="https://yegdealership.shop/" target="_blank" rel="noreferrer">Live site</a>
                 </div>
 
                 <div className="project-preview">
@@ -115,7 +115,7 @@ const Projects = () => {
                     <br />
 
                     <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer">Live site</a>
-                    <a href="https://github.com/AbdulKadri/next-weather-app" target="_blank" rel="noreferrer"> Repository </a>
+                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer"> Repository </a>
                 </div>
             </div>
         </div>
