@@ -1,5 +1,5 @@
 import '../styles/About.scss';
-import EmblaCarousel from "./Carousel";
+import Carousel from './Carousel';
 
 function About() {
     return (
@@ -16,7 +16,7 @@ function About() {
                 If you're interested in collaborating, don't hesitate to get in touch. I'm always looking for new projects and collaborations. Thanks for checking out my portfolio!
             </p>
 
-            <EmblaCarousel />
+            <Carousel />
         </div>
     )
 }
