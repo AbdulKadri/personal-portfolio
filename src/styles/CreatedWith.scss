@@ -10,9 +10,10 @@
 
 h2 {
   @include h2Design;
+  text-align: center;
 }
 
-.created-with {
+.created-with-logos {
   @include centerAll;
   gap: 4rem;
 }
