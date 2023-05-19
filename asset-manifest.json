@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/abdulkadri.github.io/static/css/main.a70ee157.css",
+    "main.js": "/abdulkadri.github.io/static/js/main.b27e7c82.js",
+    "static/media/Timmana-Regular.ttf": "/abdulkadri.github.io/static/media/Timmana-Regular.777ba64f8b11518c0aa7.ttf",
+    "static/media/workplace.jpg": "/abdulkadri.github.io/static/media/workplace.f27de6b02bb9cae01862.jpg",
+    "static/media/gsap-original.svg": "/abdulkadri.github.io/static/media/gsap-original.dff87e2debbe5d37479732018b2a575a.svg",
+    "static/media/postgresql-original.svg": "/abdulkadri.github.io/static/media/postgresql-original.e07c70114f7ddba288b62f0427242107.svg",
+    "static/media/postman-original.svg": "/abdulkadri.github.io/static/media/postman-original.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
+    "static/media/sass-original.svg": "/abdulkadri.github.io/static/media/sass-original.fc2982c0c0a91de11aa63b950d596e8c.svg",
+    "static/media/mongodb-original.svg": "/abdulkadri.github.io/static/media/mongodb-original.4737ff0912cf1e73ecd15aff3eb9dc29.svg",
+    "static/media/jest-plain.svg": "/abdulkadri.github.io/static/media/jest-plain.ef90d99ab4c56949a2c6daf07e21e2d6.svg",
+    "static/media/threejs-original.svg": "/abdulkadri.github.io/static/media/threejs-original.ba080c40871265a812272fc55b475a0f.svg",
+    "static/media/react-original.svg": "/abdulkadri.github.io/static/media/react-original.a7cba2937728ce9ee33f15ea162f2cbf.svg",
+    "static/media/Github - Negative.svg": "/abdulkadri.github.io/static/media/Github - Negative.35925a94a822c9a58c7925df99a86d91.svg",
+    "static/media/bootstrap-original.svg": "/abdulkadri.github.io/static/media/bootstrap-original.914dc8f95eda27d5791d570023847e9a.svg",
+    "static/media/python-original.svg": "/abdulkadri.github.io/static/media/python-original.114eaee7cc52059e113acee67a38d9ec.svg",
+    "static/media/redux-original.svg": "/abdulkadri.github.io/static/media/redux-original.7097d0f2f0e0784316c346ec767a015e.svg",
+    "static/media/wordpress-plain.svg": "/abdulkadri.github.io/static/media/wordpress-plain.13c006993093b981862a4a8e8cc7fc67.svg",
+    "static/media/nodejs-original.svg": "/abdulkadri.github.io/static/media/nodejs-original.93e85335692fcfb514c2ed879f782924.svg",
+    "static/media/javascript-original.svg": "/abdulkadri.github.io/static/media/javascript-original.55bd32a667a233e3c720f078f18eaec6.svg",
+    "static/media/typescript-original.svg": "/abdulkadri.github.io/static/media/typescript-original.274e572a604d34a8f35a137fea8ef4f3.svg",
+    "static/media/express-original.svg": "/abdulkadri.github.io/static/media/express-original.c5c2c0213c61d728cde7d0289007dce3.svg",
+    "static/media/git-original.svg": "/abdulkadri.github.io/static/media/git-original.05f32f27e476ad7cc41bc0fcb00cb641.svg",
+    "static/media/LinkedIn - Negative.svg": "/abdulkadri.github.io/static/media/LinkedIn - Negative.38898d5b466a25acb2a9e1e4fd0e7552.svg",
+    "static/media/css3-original.svg": "/abdulkadri.github.io/static/media/css3-original.c5e86fa142300fa05b408be09763a656.svg",
+    "static/media/tailwindcss-plain.svg": "/abdulkadri.github.io/static/media/tailwindcss-plain.d3ab4fb6f4d28f8f74aa383237dbf9a1.svg",
+    "static/media/html5-original.svg": "/abdulkadri.github.io/static/media/html5-original.f0f2a64ae0ce490808d4597e74967e7a.svg",
+    "static/media/personal-logo.svg": "/abdulkadri.github.io/static/media/personal-logo.dc5cfa0ed0a2221813d027009f8be9d2.svg",
+    "index.html": "/abdulkadri.github.io/index.html",
+    "static/media/figma-original.svg": "/abdulkadri.github.io/static/media/figma-original.dad0daaca9c8ec750c059d9c686fc950.svg",
+    "static/media/materialui-original.svg": "/abdulkadri.github.io/static/media/materialui-original.fd39038f42e0a51c676e0ba1d6c42644.svg",
+    "static/media/Arrow.svg": "/abdulkadri.github.io/static/media/Arrow.33fe243ca1930846373f58bfbac21212.svg",
+    "static/media/npm-original-wordmark.svg": "/abdulkadri.github.io/static/media/npm-original-wordmark.c24e3fe20a36c5ae47034eacbcbfbbe4.svg",
+    "static/media/nextjs-original.svg": "/abdulkadri.github.io/static/media/nextjs-original.0b4201703ca9dfbe9bdd6ef99103134f.svg",
+    "main.a70ee157.css.map": "/abdulkadri.github.io/static/css/main.a70ee157.css.map",
+    "main.b27e7c82.js.map": "/abdulkadri.github.io/static/js/main.b27e7c82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a70ee157.css",
+    "static/js/main.b27e7c82.js"
+  ]
+}
