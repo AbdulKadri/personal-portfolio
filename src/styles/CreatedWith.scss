@@ -1,0 +1,18 @@
+// Import rule will grdually phase out. when this happens use @use instead
+@import "./variables.scss";
+@import "./mixins.scss";
+
+.created-with-container {
+  @include centerAll;
+  flex-direction: column;
+  background-color: $primary-bg-colour;
+}
+
+h2 {
+  @include h2Design;
+}
+
+.created-with {
+  @include centerAll;
+  gap: 4rem;
+}
