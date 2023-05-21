@@ -2,18 +2,17 @@ import Skills from './Skills';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import '../styles/Carousel.scss'
 import 'swiper/scss';
-import 'swiper/scss/navigation';
 import 'swiper/scss/autoplay';
 import 'swiper/scss/mousewheel'
 import 'swiper/scss/free-mode';
-import SwiperCore, { Navigation, Autoplay, Mousewheel, A11y } from 'swiper';
+import SwiperCore, { Autoplay, Mousewheel, A11y } from 'swiper';
 
-SwiperCore.use([Navigation, Autoplay, Mousewheel, A11y]);
+SwiperCore.use([Autoplay, Mousewheel, A11y]);
 
 const Carousel = () => {
     return (
         <Swiper
-            modules={[Navigation, Autoplay, Mousewheel, A11y]}
+            modules={[Autoplay, Mousewheel, A11y]}
             spaceBetween={10}
             slidesPerView={3}
             breakpoints={{
@@ -24,9 +23,10 @@ const Carousel = () => {
                     slidesPerView: 6,
                 },
             }}
-            navigation
+            speed={2000}
+            grabCursor={true}
             mousewheel={true}
-            autoplay={{ delay: 2000, disableOnInteraction: false }}
+            autoplay={{ delay: 0, disableOnInteraction: false }}
             freeMode={true}
             loop={true}
             className='swiper-container'
