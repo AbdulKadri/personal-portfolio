@@ -16,32 +16,26 @@ const Projects = () => {
 
                     <p className='created-with'><u>Frontend:</u> React, Material UI, Redux Toolkit, React Router Dom, Formik, Yup, Dropzone...</p>
                     <p className='created-with'><u>Backend:</u> Node/Express, MongoDB/Mongoose, JWT, Postman, Bcrypt, Multer, Helmet, Morgan...</p>
-                    <p className='created-with'><u>Hosting:</u> ...</p>
+                    <p className='created-with'><u>Hosting:</u> Render</p>
 
                     <br />
 
-                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer">Live site</a>
+                    <a href="https://sportsnexus.onrender.com/" target="_blank" rel="noreferrer">Live site</a>
                     <a href="https://github.com/AbdulKadri/social-media" target="_blank" rel="noreferrer"> Repository </a>
                 </div>
 
                 <div className="project-preview">
-                    <div className="project-front">
-                        <p>Temp Front</p>
-                    </div>
-                    <div className="project-back">
-                        <p>Temp back</p>
-                    </div>
+                    <p className="hover-instructions">Hover to see more</p>
+                    <div className="project-front" id='sports-nexus-image'></div>
+                    <div className="project-back" id='sports-nexus-gif'></div>
                 </div>
             </div>
 
             <div className="project">
                 <div className="project-preview">
-                    <div className="project-front">
-                        <p>Temp Front</p>
-                    </div>
-                    <div className="project-back">
-                        <p>Temp back</p>
-                    </div>
+                    <p className="hover-instructions">Hover to see more</p>
+                    <div className="project-front" id='apex-weather-image'></div>
+                    <div className="project-back" id='apex-weather-gif'></div>
                 </div>
 
                 <div className="project-text">
@@ -57,7 +51,7 @@ const Projects = () => {
 
                     <br />
 
-                    <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer">Live site</a>
+                    <a href="https://next-weather-app-lac.vercel.app/" target="_blank" rel="noreferrer">Live site</a>
                     <a href="https://github.com/AbdulKadri/next-weather-app" target="_blank" rel="noreferrer"> Repository </a>
                 </div>
             </div>
@@ -82,22 +76,19 @@ const Projects = () => {
                 </div>
 
                 <div className="project-preview">
-                    <div className="project-front">
-                        <p>Temp Front</p>
-                    </div>
-                    <div className="project-back">
-                        <p>Temp back</p>
-                    </div>
+                    <p className="hover-instructions">Hover to see more</p>
+                    <div className="project-front" id='yeg-dealership-image'></div>
+                    <div className="project-back" id='yeg-dealership-gif'></div>
                 </div>
             </div>
 
             <div className="project">
                 <div className="project-preview">
                     <div className="project-front">
-                        <p>Temp Front</p>
+                        <p>Coming Soon...</p>
                     </div>
                     <div className="project-back">
-                        <p>Temp back</p>
+                        <p>Coming Soon...</p>
                     </div>
                 </div>
 
