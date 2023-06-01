@@ -1,4 +1,4 @@
-import Skills from './Skills';
+import tools from './tools';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import '../styles/Carousel.scss'
 import 'swiper/scss';
@@ -31,11 +31,11 @@ const Carousel = () => {
             loop={true}
             className='swiper-container'
         >
-            {Skills.map((skill, index) => (
+            {tools.map((tool, index) => (
                 <SwiperSlide key={index}>
-                    <div className="skill">
-                        <img src={skill.logo} alt={`${skill.name} logo`} />
-                        <p>{skill.name}</p>
+                    <div className="tool">
+                        <img src={tool.logo} alt={`${tool.name} logo`} />
+                        <p>{tool.name}</p>
                         <p className="ordered-number">{index + 1}</p>
                     </div>
                 </SwiperSlide>
