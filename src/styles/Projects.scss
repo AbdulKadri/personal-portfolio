@@ -86,6 +86,7 @@
 
   .project-front {
     z-index: 1;
+    background-size: cover;
   }
 
   .project-back {
@@ -93,6 +94,7 @@
     -moz-transform: rotateX(120deg) translateZ(-9.2rem);
     transform: rotateX(120deg) translateZ(-9.2rem);
     border-top: 2px solid rgb(171, 171, 171);
+    background-size: cover;
   }
 
   &:hover .project-front {
@@ -128,36 +130,6 @@
 
 .project-preview:hover .hover-instructions {
   opacity: 0;
-}
-
-#sports-nexus-image {
-  background-image: url("../Assets/projects/SportsNexus.png");
-  background-size: cover;
-}
-
-#sports-nexus-gif {
-  background-image: url("../Assets/projects/SportsNexus.gif");
-  background-size: cover;
-}
-
-#apex-weather-image {
-  background-image: url("../Assets/projects/ApexWeather.png");
-  background-size: cover;
-}
-
-#apex-weather-gif {
-  background-image: url("../Assets/projects/ApexWeather.gif");
-  background-size: cover;
-}
-
-#yeg-dealership-image {
-  background-image: url("../Assets/projects/YegDealership.png");
-  background-size: cover;
-}
-
-#yeg-dealership-gif {
-  background-image: url("../Assets/projects/YegDealership.gif");
-  background-size: cover;
 }
 
 @media (max-width: $mobile-size) {
