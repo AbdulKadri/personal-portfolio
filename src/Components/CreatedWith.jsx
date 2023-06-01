@@ -1,4 +1,4 @@
-import Asset from "./Assets"
+import asset from "./assets"
 import "../styles/CreatedWith.scss"
 
 const CreatedWith = () => {
@@ -6,8 +6,8 @@ const CreatedWith = () => {
         <div className="created-with-container">
             <h2>Created with</h2>
             <div className="created-with-logos">
-                <img src={Asset.logoReact} alt="React logo" />
-                <img src={Asset.logoSass} alt="Sass logo" />
+                <img src={asset.logoReact} alt="React logo" />
+                <img src={asset.logoSass} alt="Sass logo" />
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com'
-import Asset from "./Assets";
+import asset from "./assets";
 import '../styles/Contact.scss'
 
 const Contact = () => {
@@ -61,14 +61,14 @@ const Contact = () => {
                             </textarea>
                         </div>
 
-                        <button type='submit'>Send <img src={Asset.Arrow} alt="arrow" /></button>
+                        <button type='submit'>Send <img src={asset.Arrow} alt="arrow" /></button>
                     </fieldset>
                 </form>
             </div>
 
             <div className="social-container">
-                <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer"><img src={Asset.logoGithub} alt="Github logo" /></a>
-                <a href="https://linkedin.com/in/abdul-rahime-kadri-bb8935178" target="_blank" rel="noreferrer"><img src={Asset.logoLinkedIn} alt="LinkedIn logo" /></a>
+                <a href="https://github.com/AbdulKadri" target="_blank" rel="noreferrer"><img src={asset.logoGithub} alt="Github logo" /></a>
+                <a href="https://linkedin.com/in/abdul-rahime-kadri-bb8935178" target="_blank" rel="noreferrer"><img src={asset.logoLinkedIn} alt="LinkedIn logo" /></a>
             </div>
         </div>
     )
