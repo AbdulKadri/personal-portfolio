@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.801a93c5.css",
-    "main.js": "/personal-portfolio/static/js/main.93c5d266.js",
+    "main.css": "/personal-portfolio/static/css/main.f1d55d53.css",
+    "main.js": "/personal-portfolio/static/js/main.701fc09f.js",
+    "static/media/WildRydes.gif": "/personal-portfolio/static/media/WildRydes.63a0eb4fed75b67d4cd3.gif",
     "static/media/ApexWeather.gif": "/personal-portfolio/static/media/ApexWeather.8a7be7309c62224716b3.gif",
     "static/media/YegDealership.gif": "/personal-portfolio/static/media/YegDealership.53677d0178a9046e534a.gif",
     "static/media/SportsNexus.gif": "/personal-portfolio/static/media/SportsNexus.36b4f3cc77a47b6d8221.gif",
+    "static/media/WildRydes.png": "/personal-portfolio/static/media/WildRydes.9e1679e79115c56740f7.png",
+    "static/media/ElectronicsStore.gif": "/personal-portfolio/static/media/ElectronicsStore.5132688a5aa4f8e9f0b7.gif",
     "static/media/ApexWeather.png": "/personal-portfolio/static/media/ApexWeather.8cafe6a1e65ff6f6ac0c.png",
     "static/media/Timmana-Regular.ttf": "/personal-portfolio/static/media/Timmana-Regular.777ba64f8b11518c0aa7.ttf",
     "static/media/SportsNexus.png": "/personal-portfolio/static/media/SportsNexus.f120e8dbf1e91ef0f56c.png",
     "static/media/YegDealership.png": "/personal-portfolio/static/media/YegDealership.298e64d1b07fccdf4a9a.png",
     "static/media/workplace.jpg": "/personal-portfolio/static/media/workplace.f27de6b02bb9cae01862.jpg",
+    "static/media/ElectronicsStore.png": "/personal-portfolio/static/media/ElectronicsStore.a52d05d3bcb3dbcf7102.png",
     "static/media/gsap-original.svg": "/personal-portfolio/static/media/gsap-original.dff87e2debbe5d37479732018b2a575a.svg",
     "static/media/postgresql-original.svg": "/personal-portfolio/static/media/postgresql-original.e07c70114f7ddba288b62f0427242107.svg",
     "static/media/postman-original.svg": "/personal-portfolio/static/media/postman-original.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
@@ -17,6 +21,7 @@
     "static/media/mongodb-original.svg": "/personal-portfolio/static/media/mongodb-original.4737ff0912cf1e73ecd15aff3eb9dc29.svg",
     "static/media/jest-plain.svg": "/personal-portfolio/static/media/jest-plain.ef90d99ab4c56949a2c6daf07e21e2d6.svg",
     "static/media/threejs-original.svg": "/personal-portfolio/static/media/threejs-original.ba080c40871265a812272fc55b475a0f.svg",
+    "static/media/aws-original.svg": "/personal-portfolio/static/media/aws-original.482ae98bd199aa096dfaa67074122abb.svg",
     "static/media/react-original.svg": "/personal-portfolio/static/media/react-original.a7cba2937728ce9ee33f15ea162f2cbf.svg",
     "static/media/Github - Negative.svg": "/personal-portfolio/static/media/Github - Negative.35925a94a822c9a58c7925df99a86d91.svg",
     "static/media/bootstrap-original.svg": "/personal-portfolio/static/media/bootstrap-original.914dc8f95eda27d5791d570023847e9a.svg",
@@ -39,11 +44,11 @@
     "static/media/Arrow.svg": "/personal-portfolio/static/media/Arrow.33fe243ca1930846373f58bfbac21212.svg",
     "static/media/npm-original-wordmark.svg": "/personal-portfolio/static/media/npm-original-wordmark.c24e3fe20a36c5ae47034eacbcbfbbe4.svg",
     "static/media/nextjs-original.svg": "/personal-portfolio/static/media/nextjs-original.0b4201703ca9dfbe9bdd6ef99103134f.svg",
-    "main.801a93c5.css.map": "/personal-portfolio/static/css/main.801a93c5.css.map",
-    "main.93c5d266.js.map": "/personal-portfolio/static/js/main.93c5d266.js.map"
+    "main.f1d55d53.css.map": "/personal-portfolio/static/css/main.f1d55d53.css.map",
+    "main.701fc09f.js.map": "/personal-portfolio/static/js/main.701fc09f.js.map"
   },
   "entrypoints": [
-    "static/css/main.801a93c5.css",
-    "static/js/main.93c5d266.js"
+    "static/css/main.f1d55d53.css",
+    "static/js/main.701fc09f.js"
   ]
 }
