@@ -4,7 +4,7 @@ const projects = [
     {
         title: 'Electronics Store (eCommerce)',
         description: 'A Next.js-13 based eCommerce project that allows users to add items to a cart and complete transactions using Stripe. The content is easily manageable thanks to the Sanity content management system.',
-        frontend: 'React, Next, CSS, Sanity, Stripe, react-icons, react-hot-toast, canvas-confetti...',
+        frontend: 'React, Next-13, TypeScript, CSS, Sanity, Stripe, react-icons, react-hot-toast, canvas-confetti...',
         cms: 'Sanity',
         hosting: 'Vercel',
         liveLink: 'https://electronics-store-alpha.vercel.app/',
