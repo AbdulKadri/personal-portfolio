@@ -11,11 +11,12 @@ const tools = [
     { logo: asset.logoNodejs, name: "Node.js" },
     { logo: asset.logoExpressjs, name: "Express.js" },
     { logo: asset.logoMongoDB, name: "MongoDB" },
-    { logo: asset.logoPostgreSQL, name: "PostgreSQL" },
+    { logo: asset.logoPHP, name: "PHP" },
+    { logo: asset.logoLaravel, name: "Laravel" },
+    { logo: asset.logoMySQL, name: "MySQL" },
     { logo: asset.logoThreejs, name: "Three.js" },
     { logo: asset.logoGSAP, name: "GSAP" },
     { logo: asset.logoSass, name: "Sass" },
-    { logo: asset.logoBootstrap, name: "Bootstrap" },
     { logo: asset.logoTailwindcss, name: "Tailwind CSS" },
     { logo: asset.logoFigma, name: "Figma" },
     { logo: asset.logoMaterialUI, name: "Material UI" },
@@ -24,7 +25,7 @@ const tools = [
     { logo: asset.logoAWS, name: "AWS" },
     { logo: asset.logoPostman, name: "Postman" },
     { logo: asset.logoJest, name: "Jest" },
-    { logo: asset.logoNpm, name: "npm" },
+    { logo: asset.logoCypress, name: "Cypress" },
     { logo: asset.logoGit, name: "Git" },
 ];
 

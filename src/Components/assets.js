@@ -10,11 +10,12 @@ const asset = {
     logoNodejs: require('../Assets/languages/nodejs-original.svg').default,
     logoExpressjs: require('../Assets/languages/express-original.svg').default,
     logoMongoDB: require('../Assets/languages/mongodb-original.svg').default,
-    logoPostgreSQL: require('../Assets/languages/postgresql-original.svg').default,
+    logoPHP: require('../Assets/languages/php-plain.svg').default,
+    logoLaravel: require('../Assets/languages/laravel.svg').default,
+    logoMySQL: require('../Assets/languages/mysql-plain.svg').default,
     logoThreejs: require('../Assets/languages/threejs-original.svg').default,
     logoGSAP: require('../Assets/languages/gsap-original.svg').default,
     logoSass: require('../Assets/languages/sass-original.svg').default,
-    logoBootstrap: require('../Assets/languages/bootstrap-original.svg').default,
     logoTailwindcss: require('../Assets/languages/tailwindcss-plain.svg').default,
     logoFigma: require('../Assets/languages/figma-original.svg').default,
     logoMaterialUI: require('../Assets/languages/materialui-original.svg').default,
@@ -23,7 +24,7 @@ const asset = {
     logoAWS: require('../Assets/languages/aws-original.svg').default,
     logoPostman: require('../Assets/languages/postman-original.svg').default,
     logoJest: require('../Assets/languages/jest-plain.svg').default,
-    logoNpm: require('../Assets/languages/npm-original-wordmark.svg').default,
+    logoCypress: require('../Assets/languages/cypress.svg').default,
     logoGit: require('../Assets/languages/git-original.svg').default,
 
     // Social 
