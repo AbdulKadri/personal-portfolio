@@ -19,17 +19,27 @@ const Projects = () => {
                                     {project.backend && <p className='created-with'><u>Backend:</u> {project.backend}</p>}
                                     {project.cms && <p className='created-with'><u>CMS:</u> {project.cms}</p>}
                                     <p className='created-with'><u>Hosting:</u> {project.hosting}</p>
+                                    {project.testing && <p className='created-with'><u>Testing:</u> {project.testing}</p>}
                                     <br />
-                                    <a href={project.liveLink} target="_blank" rel="noreferrer">Live site</a>
+                                    {project.liveLink ?
+                                        <a href={project.liveLink} target="_blank" rel="noreferrer">Live site</a> :
+                                        <a href={project.liveLink} style={{ pointerEvents: "none", color: "gray" }} disabled>Live site</a>
+                                    }
                                     {project.repositoryLink && <a href={project.repositoryLink} target="_blank" rel="noreferrer"> Repository </a>}
                                 </div>
                                 <div className="project-preview">
                                     <p className="hover-instructions">Hover to see more</p>
                                     <div className="project-front">
-                                        <img src={project.imageURL} alt={project.title}></img>
+                                        {project.imageURL ?
+                                            <img src={project.imageURL} alt={project.title} /> :
+                                            <div className="placeholder-image">No Image Available</div>
+                                        }
                                     </div>
                                     <div className="project-back">
-                                        <img src={project.gifURL} alt={project.title}></img>
+                                        {project.gifURL ?
+                                            <img src={project.gifURL} alt={project.title} /> :
+                                            <div className="placeholder-image">No Image Available</div>
+                                        }
                                     </div>
                                 </div>
                             </> :
@@ -37,10 +47,16 @@ const Projects = () => {
                                 <div className="project-preview">
                                     <p className="hover-instructions">Hover to see more</p>
                                     <div className="project-front">
-                                        <img src={project.imageURL} alt={project.title}></img>
+                                        {project.imageURL ?
+                                            <img src={project.imageURL} alt={project.title} /> :
+                                            <div className="placeholder-image">No Image Available</div>
+                                        }
                                     </div>
                                     <div className="project-back">
-                                        <img src={project.gifURL} alt={project.title}></img>
+                                        {project.gifURL ?
+                                            <img src={project.gifURL} alt={project.title} /> :
+                                            <div className="placeholder-image">No Image Available</div>
+                                        }
                                     </div>
                                 </div>
                                 <div className="project-text">
@@ -52,8 +68,12 @@ const Projects = () => {
                                     {project.backend && <p className='created-with'><u>Backend:</u> {project.backend}</p>}
                                     {project.cms && <p className='created-with'><u>CMS:</u> {project.cms}</p>}
                                     <p className='created-with'><u>Hosting:</u> {project.hosting}</p>
+                                    {project.testing && <p className='created-with'><u>Testing:</u> {project.testing}</p>}
                                     <br />
-                                    <a href={project.liveLink} target="_blank" rel="noreferrer">Live site</a>
+                                    {project.liveLink ?
+                                        <a href={project.liveLink} target="_blank" rel="noreferrer">Live site</a> :
+                                        <a href={project.liveLink} style={{ pointerEvents: "none", color: "gray" }} disabled>Live site</a>
+                                    }
                                     {project.repositoryLink && <a href={project.repositoryLink} target="_blank" rel="noreferrer"> Repository </a>}
                                 </div>
                             </>
