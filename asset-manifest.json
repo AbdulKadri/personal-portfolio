@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.7f8f3b27.css",
-    "main.js": "/personal-portfolio/static/js/main.ea9dc92d.js",
+    "main.js": "/personal-portfolio/static/js/main.f84aab9e.js",
     "static/media/WildRydes.gif": "/personal-portfolio/static/media/WildRydes.63a0eb4fed75b67d4cd3.gif",
     "static/media/ApexWeather.gif": "/personal-portfolio/static/media/ApexWeather.8a7be7309c62224716b3.gif",
     "static/media/YegDealership.gif": "/personal-portfolio/static/media/YegDealership.53677d0178a9046e534a.gif",
+    "static/media/WorkBridge.gif": "/personal-portfolio/static/media/WorkBridge.45520acb67d489fcf22e.gif",
     "static/media/SportsNexus.gif": "/personal-portfolio/static/media/SportsNexus.36b4f3cc77a47b6d8221.gif",
     "static/media/WildRydes.png": "/personal-portfolio/static/media/WildRydes.9e1679e79115c56740f7.png",
     "static/media/ElectronicsStore.gif": "/personal-portfolio/static/media/ElectronicsStore.5132688a5aa4f8e9f0b7.gif",
@@ -14,6 +15,7 @@
     "static/media/YegDealership.png": "/personal-portfolio/static/media/YegDealership.298e64d1b07fccdf4a9a.png",
     "static/media/workplace.jpg": "/personal-portfolio/static/media/workplace.f27de6b02bb9cae01862.jpg",
     "static/media/ElectronicsStore.png": "/personal-portfolio/static/media/ElectronicsStore.a52d05d3bcb3dbcf7102.png",
+    "static/media/WorkBridge.png": "/personal-portfolio/static/media/WorkBridge.344674c4ff2baa6a68ee.png",
     "static/media/gsap-original.svg": "/personal-portfolio/static/media/gsap-original.dff87e2debbe5d37479732018b2a575a.svg",
     "static/media/postman-original.svg": "/personal-portfolio/static/media/postman-original.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
     "static/media/sass-original.svg": "/personal-portfolio/static/media/sass-original.fc2982c0c0a91de11aa63b950d596e8c.svg",
@@ -46,10 +48,10 @@
     "static/media/Arrow.svg": "/personal-portfolio/static/media/Arrow.33fe243ca1930846373f58bfbac21212.svg",
     "static/media/nextjs-original.svg": "/personal-portfolio/static/media/nextjs-original.0b4201703ca9dfbe9bdd6ef99103134f.svg",
     "main.7f8f3b27.css.map": "/personal-portfolio/static/css/main.7f8f3b27.css.map",
-    "main.ea9dc92d.js.map": "/personal-portfolio/static/js/main.ea9dc92d.js.map"
+    "main.f84aab9e.js.map": "/personal-portfolio/static/js/main.f84aab9e.js.map"
   },
   "entrypoints": [
     "static/css/main.7f8f3b27.css",
-    "static/js/main.ea9dc92d.js"
+    "static/js/main.f84aab9e.js"
   ]
 }
