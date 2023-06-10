@@ -38,11 +38,13 @@ const asset = {
     ElectronicsStore: require('../Assets/projects/ElectronicsStore.png'),
     SportsNexus: require('../Assets/projects/SportsNexus.png'),
     ApexWeather: require('../Assets/projects/ApexWeather.png'),
+    WorkBridge: require('../Assets/projects/WorkBridge.png'),
     YegDealership: require('../Assets/projects/YegDealership.png'),
     WildRydes: require('../Assets/projects/WildRydes.png'),
     ElectronicsStoreGif: require('../Assets/projects/ElectronicsStore.gif'),
     SportsNexusGif: require('../Assets/projects/SportsNexus.gif'),
     ApexWeatherGif: require('../Assets/projects/ApexWeather.gif'),
+    WorkBridgeGif: require('../Assets/projects/WorkBridge.gif'),
     YegDealershipGif: require('../Assets/projects/YegDealership.gif'),
     WildRydesGif: require('../Assets/projects/WildRydes.gif'),
 }
