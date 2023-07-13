@@ -35,6 +35,16 @@ const projects = [
         gifURL: asset.ApexWeatherGif,
     },
     {
+        title: 'Luxury Cuts (Barbershop Website)',
+        description: 'A React-based template website for a barbershop. Features include a home page, about page, services page, contact page and a booking portal. The website is fully responsive and mobile-friendly.',
+        frontend: 'React, TypeScript, TailwindCSS, Font-Awesome Icons, React Router Dom...',
+        hosting: 'Netlify',
+        liveLink: 'https://superlative-snickerdoodle-94900b.netlify.app/',
+        repositoryLink: 'https://github.com/AbdulKadri/luxury-cuts',
+        imageURL: asset.LuxuryCuts,
+        gifURL: asset.LuxuryCutsGif,
+    },
+    {
         title: 'Work Bridge (Job Board)',
         description: 'A Laravel-based job board application that allows users to post jobs Features include a job search and job posting. The application includes protected routes and a MySQL database.',
         frontend: 'Blade, TailwindCSS, Alpine.js',
